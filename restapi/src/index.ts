@@ -5,6 +5,7 @@ import * as BodyParser from "body-parser";
 import * as cors from "cors";
 import postRoutes from "./routes/postRoutes";
 
+
 AppDataSource.initialize()
   .then(async (connection) => {
     const app = express();
